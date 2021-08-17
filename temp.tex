@@ -1,0 +1,134 @@
+\documentclass[11pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[intlimits]{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{comment}
+\usepackage{physics}
+\usepackage{tensor}
+\usepackage{siunitx}
+\usepackage{bm}
+\usepackage{bbm}
+\usepackage{bbold}
+\usepackage{enumerate}
+\usepackage{mathtools}
+\usepackage{multicol}
+\usepackage[T1]{fontenc}
+
+% MARGIN SIZE
+\usepackage[margin=0.7in]{geometry}
+
+% GRAPHICS
+% \usepackage{graphicx}
+% \usepackage{pgfplots}
+% \graphicspath{ {./} }
+
+% \usepackage[sorting=none]{biblatex}
+% \addbibresource{~/a/d/bib.bib}
+
+% ---------------------------------FONTS-------------------------------
+% Concrete Mathematics
+% \usepackage{ccfonts,eulervm}
+
+% \usepackage{palatino,eulervm}
+% \renewcommand{\baselinestretch}{1.12}
+
+% \usepackage{ebgaramond}
+% \renewcommand{\baselinestretch}{1.13}
+
+%\usepackage{mathpazo}
+%\usepackage{microtype}
+%\usepackage[margin=15pt,font=small,labelfont={bf,sf}]{caption}
+%\usepackage[semibold]{sourcesanspro}
+%\usepackage{gfsneohellenic}
+%\usepackage{sectsty}
+%\allsectionsfont{\sffamily}
+%\usepackage{sectsty}
+%\allsectionsfont{\sffamily}
+% ---------------------------------------------------------------------
+
+\usepackage{hyperref}
+\usepackage[all]{hypcap}
+
+\binoppenalty=\maxdimen
+\relpenalty=9999
+
+% Fix set symbols
+\AtBeginDocument{%
+	\let\mathbb\relax
+	\DeclareMathAlphabet{\mathbb}{U}{msb}{m}{n}%
+}
+
+\renewcommand{\t}{\tensor}
+\renewcommand{\r}{\frac}
+\newcommand{\ot}{\otimes}
+\newcommand{\m}{\bmqty}
+\renewcommand{\v}{\vb*}
+\newcommand{\bt}[1]{\left<#1\right>}
+\newcommand{\mc}[1]{\mathcal{#1}}
+\newcommand{\mb}[1]{\mathbb{#1}}
+\newcommand{\mbm}[1]{\mathbbm{#1}}
+\newcommand{\mr}[1]{\mathrm{#1}}
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\C}{\mathbb{C}}
+\newcommand{\N}{\mathbb{N}}
+\newcommand{\Z}{\mathbb{Z}}
+\newcommand{\av}{\updownarrow}
+\newcommand{\ah}{\leftrightarrow}
+\newcommand{\ar}{\rightarrow}
+\newcommand{\al}{\leftarrow}
+\newcommand{\f}{\qty}
+\newcommand{\ol}[1]{\overline{#1}}
+\newcommand{\pd}{\partial}
+\newcommand{\mri}[1]{\mathring{#1}}
+\newcommand{\sm}{\setminus}
+\newcommand{\verteq}{\rotatebox{90}{$\,=$}}
+\newcommand{\eqto}[2]{\underset{\scriptstyle\overset{\mkern4mu\verteq}{#2}}{#1}}
+\DeclareMathOperator{\sgn}{sgn}
+\DeclareMathOperator{\arctanh}{arctanh}
+\DeclareMathOperator{\arccoth}{arccoth}
+\DeclareMathOperator{\arcsinh}{arcsinh}
+\DeclareMathOperator{\arccosh}{arccosh}
+
+
+% POLISH SETUP
+% \iffalse
+\usepackage[polish]{babel}
+\usepackage{amsthm}
+\newtheorem{theorem}{Twierdzenie}
+\newtheorem{corollary}{Wniosek}
+\newtheorem{lemma}{Lemat}
+\newtheorem*{exercise*}{Zadanie}
+\theoremstyle{definition}
+\newtheorem{definition}{Definicja}
+% \fi
+
+
+% ENGLISH SETUP
+\iffalse
+\usepackage[english]{babel}
+\usepackage{amsthm}
+\newtheorem{theorem}{Theorem}
+\newtheorem{corollary}{Corollary}
+\newtheorem{lemma}{Lemma}
+\newtheorem*{exercise*}{Exercise}
+\theoremstyle{definition}
+\newtheorem{definition}{Definition}
+\fi
+
+
+\title{}
+\author{Adam Bac}
+\date{}
+
+% -------------------------------------------------------------------------
+
+\begin{document}
+
+%\maketitle
+
+Template
+
+% \printbibliography
+
+\end{document}
